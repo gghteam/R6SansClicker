@@ -6,15 +6,16 @@ using UnityEngine;
 [Serializable]
 public class Player
 {
-    public long union;
-    public long bobBurger;
+    public long unionPerClick = 154;
+    public long union = 0;
+    public long bobBurger = 0;
     public Pants[] pants;
 }
 
 [Serializable]
 public class Pants
 {
-    public long level;
-    public long upgradeCost;
-    public long unionPerSecond;
+    public long level = 1;
+    public long upgradeCost = 10101;
+    public long unionPerSecond = 19;
 }
